@@ -19,6 +19,7 @@ final class JoinNameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUI()
+        setTextField()
     }
     
     // MARK: - Function
@@ -29,6 +30,16 @@ final class JoinNameViewController: UIViewController {
     
     private func setButtonUI() {
         nextButton.layer.cornerRadius = 15
+    }
+    
+    private func setTextField() {
+        nameTextField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
+    }
+    
+    // MARK: - objc function
+    
+    @objc func textFieldDidChange(_ sender: UITextField) {
+        nextButton.isEnabled = nameTextField.hasText
     }
     
     // MARK: - IBAction

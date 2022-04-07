@@ -20,6 +20,7 @@ final class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUI()
+        setTextField()
     }
     
     // MARK: - Function
@@ -29,7 +30,19 @@ final class LoginViewController: UIViewController {
     }
     
     private func setButtonUI() {
-        loginButton.layer.cornerRadius = 15
+        loginButton.layer.cornerRadius = 10
+    }
+    
+    private func setTextField() {
+        [emailTextField, passwordTextField].forEach {
+            $0?.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
+        }
+    }
+    
+    // MARK: - objc function
+    
+    @objc func textFieldDidChange(_ sender: UITextField) {
+        loginButton.isEnabled = emailTextField.hasText && passwordTextField.hasText
     }
     
     // MARK: - IBAction
