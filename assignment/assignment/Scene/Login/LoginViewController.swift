@@ -13,7 +13,9 @@ final class LoginViewController: UIViewController {
     
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var showPasswordButton: UIButton!
     @IBOutlet weak var loginButton: UIButton!
+
     
     // MARK: - LifeCycle
     
@@ -35,6 +37,8 @@ final class LoginViewController: UIViewController {
     }
     
     private func setButtonUI() {
+        showPasswordButton.setImage(UIImage(systemName: "eye.fill"), for: .normal)
+        showPasswordButton.setImage(UIImage(systemName: "eye.slash.fill"), for: .selected)
         loginButton.layer.cornerRadius = 10
     }
     
@@ -57,6 +61,11 @@ final class LoginViewController: UIViewController {
     }
     
     // MARK: - IBAction
+    
+    @IBAction func showPasswordButtonDidTap(_ sender: Any) {
+        showPasswordButton.isSelected.toggle()
+        passwordTextField.isSecureTextEntry.toggle()
+    }
     
     @IBAction func completeButtonDidTap(_ sender: Any) {
         guard let completeVC = UIStoryboard(name: "Complete", bundle: nil).instantiateViewController(withIdentifier: "CompleteViewController") as? CompleteViewController else { return }
