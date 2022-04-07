@@ -23,6 +23,11 @@ final class LoginViewController: UIViewController {
         setTextField()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        removeTextField()
+    }
+    
     // MARK: - Function
     
     private func setUI() {
@@ -36,6 +41,12 @@ final class LoginViewController: UIViewController {
     private func setTextField() {
         [emailTextField, passwordTextField].forEach {
             $0?.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
+        }
+    }
+    
+    private func removeTextField() {
+        [emailTextField, passwordTextField].forEach {
+            $0?.text?.removeAll()
         }
     }
     

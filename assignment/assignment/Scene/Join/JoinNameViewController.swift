@@ -22,6 +22,11 @@ final class JoinNameViewController: UIViewController {
         setTextField()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        removeTextField()
+    }
+    
     // MARK: - Function
     
     private func setUI() {
@@ -34,6 +39,10 @@ final class JoinNameViewController: UIViewController {
     
     private func setTextField() {
         nameTextField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
+    }
+    
+    private func removeTextField() {
+        nameTextField.text?.removeAll()
     }
     
     // MARK: - objc function

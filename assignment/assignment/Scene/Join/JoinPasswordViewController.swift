@@ -26,6 +26,11 @@ final class JoinPasswordViewController: UIViewController {
         setTextField()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        removeTextField()
+    }
+    
     // MARK: - Function
     
     private func setUI() {
@@ -38,6 +43,10 @@ final class JoinPasswordViewController: UIViewController {
     
     private func setTextField() {
         passwordTextField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
+    }
+    
+    private func removeTextField() {
+        passwordTextField.text?.removeAll()
     }
     
     // MARK: - objc function
