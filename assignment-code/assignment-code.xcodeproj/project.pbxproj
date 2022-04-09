@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		984B723928014EEB00CA32BC /* UITextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984B723828014EEB00CA32BC /* UITextField+.swift */; };
+		984B723B28014EF100CA32BC /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984B723A28014EF100CA32BC /* UIButton+.swift */; };
 		98A14DD327FF13F50091AB27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A14DD227FF13F50091AB27 /* AppDelegate.swift */; };
 		98A14DD527FF13F50091AB27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A14DD427FF13F50091AB27 /* SceneDelegate.swift */; };
 		98A14DDC27FF13F60091AB27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98A14DDB27FF13F60091AB27 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		984B723828014EEB00CA32BC /* UITextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+.swift"; sourceTree = "<group>"; };
+		984B723A28014EF100CA32BC /* UIButton+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
 		98A14DCF27FF13F50091AB27 /* assignment-code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "assignment-code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98A14DD227FF13F50091AB27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98A14DD427FF13F50091AB27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		984B723728014EDB00CA32BC /* AppExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				984B723828014EEB00CA32BC /* UITextField+.swift */,
+				984B723A28014EF100CA32BC /* UIButton+.swift */,
+			);
+			path = AppExtensions;
+			sourceTree = "<group>";
+		};
 		98A14DC627FF13F50091AB27 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				98A14DE627FF13FE0091AB27 /* Supports */,
+				984B723728014EDB00CA32BC /* AppExtensions */,
 				98A58EC027FF370B00B525D5 /* ViewControllers */,
 				98A14DE027FF13F60091AB27 /* Info.plist */,
 			);
@@ -181,10 +195,12 @@
 			files = (
 				98A58EC227FF371F00B525D5 /* LoginViewController.swift in Sources */,
 				98A14DD327FF13F50091AB27 /* AppDelegate.swift in Sources */,
+				984B723928014EEB00CA32BC /* UITextField+.swift in Sources */,
 				98A14DD527FF13F50091AB27 /* SceneDelegate.swift in Sources */,
 				98A58EC827FF373700B525D5 /* WelcomeViewController.swift in Sources */,
 				98A58EC627FF372E00B525D5 /* JoinPasswordViewController.swift in Sources */,
 				98A58EC427FF372600B525D5 /* JoinNameViewController.swift in Sources */,
+				984B723B28014EF100CA32BC /* UIButton+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
