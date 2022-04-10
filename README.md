@@ -3,8 +3,8 @@
 ### #30기 커리큘럼
 | Week | Content | Seminar | Assignment |
 |:----:|-----|:----:|:----:|
-| `week1` | iOS 개발 입문 : Xcode 기본 사용법, Layout 기초, View 화면 전환 | [☑️](https://github.com/30th-THE-SOPT-iOS-Part/LeeKyoungMin/tree/main/seminar/seminar/week1) |  |
-| `week2` | UI 설계 기초(1) : AutoLayout, StackView, TabBarController |  |  |
+| `week1` | iOS 개발 입문 : Xcode 기본 사용법, Layout 기초, View 화면 전환 | [☑️](https://github.com/30th-THE-SOPT-iOS-Part/LeeKyoungMin/tree/main/seminar/seminar/week1) | [☑️](https://github.com/30th-THE-SOPT-iOS-Part/LeeKyoungMin/pull/6) |
+| `week2` | UI 설계 기초(1) : AutoLayout, StackView, TabBarController | [☑️](https://github.com/30th-THE-SOPT-iOS-Part/LeeKyoungMin/pull/13) |  |
 | `week3` | UI 설계 기초(2) : ScrollView, TableView, CollectionView |  |  |
 | `week4` | 서버 통신 기초: 서버와 클라이언트 이해, RESTful API, Alamofire를 활용한 실습 |  |  |
 | `week5` | 클라이언트 · 디자인 합동 세미나 |  |  |
