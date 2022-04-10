@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_bg" translatesAutoresizingMaskIntoConstraints="NO" id="EOr-DT-YZ0">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_lock" translatesAutoresizingMaskIntoConstraints="NO" id="8nS-kR-Fr0">
+                                <rect key="frame" x="189" y="62" width="36" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="36" id="CyL-kL-9k2"/>
+                                    <constraint firstAttribute="height" constant="36" id="fYM-ky-0F2"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:01" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RxU-2F-Z5v">
+                                <rect key="frame" x="123" y="104" width="168" height="84"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="70"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4월 9일 토요일" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xuh-Mh-crn">
+                                <rect key="frame" x="141" y="194" width="132.5" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="EOr-DT-YZ0" secondAttribute="trailing" id="1yy-dA-AnZ"/>
+                            <constraint firstItem="Xuh-Mh-crn" firstAttribute="top" secondItem="RxU-2F-Z5v" secondAttribute="bottom" constant="6" id="Gyd-eV-dFk"/>
+                            <constraint firstAttribute="bottom" secondItem="EOr-DT-YZ0" secondAttribute="bottom" id="JDK-G5-F39"/>
+                            <constraint firstItem="EOr-DT-YZ0" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="OT0-1u-t0i"/>
+                            <constraint firstItem="RxU-2F-Z5v" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="SHX-yR-70q"/>
+                            <constraint firstItem="8nS-kR-Fr0" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" constant="62" id="V19-Oj-bzB"/>
+                            <constraint firstItem="8nS-kR-Fr0" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="dcR-qZ-Vca"/>
+                            <constraint firstItem="RxU-2F-Z5v" firstAttribute="top" secondItem="8nS-kR-Fr0" secondAttribute="bottom" constant="6" id="gQ2-bL-QOw"/>
+                            <constraint firstItem="EOr-DT-YZ0" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="rk9-Yn-1K6"/>
+                            <constraint firstItem="Xuh-Mh-crn" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="s1P-NT-C1o"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="81"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icn_lock" width="36" height="36"/>
+        <image name="img_bg" width="375" height="812"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
