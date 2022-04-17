@@ -38,7 +38,7 @@ final class JoinPasswordViewController: UIViewController {
     }
     
     private func setButtonUI() {
-        nextButton.layer.cornerRadius = 15
+        nextButton.layer.cornerRadius = 5
     }
     
     private func setTextField() {
@@ -61,8 +61,14 @@ final class JoinPasswordViewController: UIViewController {
         self.navigationController?.popViewController(animated: true)
     }
     
+    @IBAction func showPasswordButtonDidTap(_ sender: Any) {
+        let button = sender as? UIButton
+        button?.isSelected.toggle()
+        passwordTextField.isSecureTextEntry.toggle()
+    }
+    
     @IBAction func nextButtonDidTap(_ sender: Any) {
-        guard let completeVC = UIStoryboard(name: "Complete", bundle: nil).instantiateViewController(withIdentifier: "CompleteViewController") as? CompleteViewController else { return }
+        guard let completeVC = UIStoryboard(name: Const.Storyboard.Complete, bundle: nil).instantiateViewController(withIdentifier: Const.ViewController.CompleteVC) as? CompleteViewController else { return }
         completeVC.modalTransitionStyle = .crossDissolve
         completeVC.modalPresentationStyle = .fullScreen
         completeVC.userName = userName

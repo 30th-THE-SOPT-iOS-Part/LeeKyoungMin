@@ -16,34 +16,57 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="OOO님 Instagram에 오신 것을 환영합니다" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ThS-tI-SpQ">
-                                <rect key="frame" x="10" y="196" width="394" height="119"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OOO님 Instagram에 오신 것을 환영합니다" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ThS-tI-SpQ">
+                                <rect key="frame" x="105.5" y="310" width="203.5" height="57.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="언제든지 연락처 정보와 사용자 이름을 변경할 수 있습니다." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eh7-SJ-abH">
-                                <rect key="frame" x="13" y="323" width="388" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="언제든지 연락처 정보와 사용자 이름을 변경할 수 있습니다." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eh7-SJ-abH">
+                                <rect key="frame" x="69" y="383.5" width="276.5" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.44705882352941173" green="0.44705882352941173" blue="0.44705882352941173" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S5C-Jf-pAF">
-                                <rect key="frame" x="20" y="392" width="374" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S5C-Jf-pAF">
+                                <rect key="frame" x="16" y="430" width="382" height="44"/>
                                 <color key="backgroundColor" red="0.35794719829999999" green="0.56799568970000003" blue="0.84779094830000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="IBU-Od-xxY"/>
+                                </constraints>
                                 <color key="tintColor" systemColor="tintColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="완료하기"/>
+                                <buttonConfiguration key="configuration" style="filled" title="완료하기">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="completeButtonDidTap:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="esx-nK-uGJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NeN-qe-yKa">
+                                <rect key="frame" x="124.5" y="492" width="165" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="다른 계정으로 로그인하기">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="anotherAccountButtonDidTap:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="j5C-LW-pGm"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NeN-qe-yKa" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="9ZL-fv-RhI"/>
+                            <constraint firstItem="ThS-tI-SpQ" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="9mM-6u-TWO"/>
+                            <constraint firstItem="eh7-SJ-abH" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Fso-RG-Rwu"/>
+                            <constraint firstItem="NeN-qe-yKa" firstAttribute="top" secondItem="S5C-Jf-pAF" secondAttribute="bottom" constant="18" id="ghc-1C-qlB"/>
+                            <constraint firstItem="eh7-SJ-abH" firstAttribute="top" secondItem="ThS-tI-SpQ" secondAttribute="bottom" constant="16" id="khh-Qm-Tou"/>
+                            <constraint firstItem="ThS-tI-SpQ" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="266" id="lwC-uf-4Vz"/>
+                            <constraint firstItem="S5C-Jf-pAF" firstAttribute="top" secondItem="eh7-SJ-abH" secondAttribute="bottom" constant="32" id="sD7-85-KRW"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="S5C-Jf-pAF" secondAttribute="trailing" constant="16" id="v4E-zs-Dqc"/>
+                            <constraint firstItem="S5C-Jf-pAF" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="zfJ-7G-f3a"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="completeButton" destination="S5C-Jf-pAF" id="weF-AU-PUf"/>

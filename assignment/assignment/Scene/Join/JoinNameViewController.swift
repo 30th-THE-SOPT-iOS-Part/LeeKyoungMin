@@ -34,7 +34,7 @@ final class JoinNameViewController: UIViewController {
     }
     
     private func setButtonUI() {
-        nextButton.layer.cornerRadius = 15
+        nextButton.layer.cornerRadius = 5
     }
     
     private func setTextField() {
@@ -58,7 +58,7 @@ final class JoinNameViewController: UIViewController {
     }
     
     @IBAction func nextButtonDidTap(_ sender: Any) {
-        guard let passwordVC = self.storyboard?.instantiateViewController(withIdentifier: "JoinPasswordViewController") as? JoinPasswordViewController else { return }
+        guard let passwordVC = self.storyboard?.instantiateViewController(withIdentifier: Const.ViewController.JoinPasswordVC) as? JoinPasswordViewController else { return }
         passwordVC.userName = nameTextField.text ?? ""
         self.navigationController?.pushViewController(passwordVC, animated: true)
     }

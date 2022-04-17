@@ -13,9 +13,8 @@ final class LoginViewController: UIViewController {
     
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
-    @IBOutlet weak var showPasswordButton: UIButton!
     @IBOutlet weak var loginButton: UIButton!
-
+    @IBOutlet weak var joinLabel: UILabel!
     
     // MARK: - LifeCycle
     
@@ -34,12 +33,15 @@ final class LoginViewController: UIViewController {
     
     private func setUI() {
         setButtonUI()
+        setLabelUI()
     }
     
     private func setButtonUI() {
-        showPasswordButton.setImage(UIImage(systemName: "eye.fill"), for: .normal)
-        showPasswordButton.setImage(UIImage(systemName: "eye.slash.fill"), for: .selected)
-        loginButton.layer.cornerRadius = 10
+        loginButton.layer.cornerRadius = 5
+    }
+    
+    private func setLabelUI() {
+        joinLabel.setPartialLabelColor(targetStringList: ["가입하기"], color: UIColor.tintColor)
     }
     
     private func setTextField() {
@@ -47,7 +49,7 @@ final class LoginViewController: UIViewController {
             $0?.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
         }
     }
-    
+
     private func removeTextField() {
         [emailTextField, passwordTextField].forEach {
             $0?.text?.removeAll()
@@ -63,12 +65,13 @@ final class LoginViewController: UIViewController {
     // MARK: - IBAction
     
     @IBAction func showPasswordButtonDidTap(_ sender: Any) {
-        showPasswordButton.isSelected.toggle()
+        let button = sender as? UIButton
+        button?.isSelected.toggle()
         passwordTextField.isSecureTextEntry.toggle()
     }
     
     @IBAction func completeButtonDidTap(_ sender: Any) {
-        guard let completeVC = UIStoryboard(name: "Complete", bundle: nil).instantiateViewController(withIdentifier: "CompleteViewController") as? CompleteViewController else { return }
+        guard let completeVC = UIStoryboard(name: Const.Storyboard.Complete, bundle: nil).instantiateViewController(withIdentifier: Const.ViewController.CompleteVC) as? CompleteViewController else { return }
         completeVC.modalTransitionStyle = .crossDissolve
         completeVC.modalPresentationStyle = .fullScreen
         completeVC.userName = emailTextField.text ?? ""
@@ -76,7 +79,7 @@ final class LoginViewController: UIViewController {
     }
     
     @IBAction func joinButtonDidTap(_ sender: Any) {
-        guard let joinNameVC = UIStoryboard(name: "Join", bundle: nil).instantiateViewController(withIdentifier: "JoinNameViewController") as? JoinNameViewController else { return }
+        guard let joinNameVC = UIStoryboard(name: Const.Storyboard.Join, bundle: nil).instantiateViewController(withIdentifier: Const.ViewController.JoinNameVC) as? JoinNameViewController else { return }
         self.navigationController?.pushViewController(joinNameVC, animated: true)
     }
 }

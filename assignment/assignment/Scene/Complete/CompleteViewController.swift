@@ -33,16 +33,22 @@ final class CompleteViewController: UIViewController {
     }
     
     private func setButtonUI() {
-        completeButton.layer.cornerRadius = 15
+        completeButton.layer.cornerRadius = 5
     }
     
     private func setUserName() {
-        welcomeLabel.text = "\(userName)님 Instagram에 오신 것을 환영합니다"
+        welcomeLabel.text = """
+        \(userName)님 Instagram에
+        오신 것을 환영합니다
+        """
     }
     
     // MARK: - IBAction
     
     @IBAction func completeButtonDidTap(_ sender: Any) {
         self.dismiss(animated: true)
+    }
+    
+    @IBAction func anotherAccountButtonDidTap(_ sender: Any) {
     }
 }
