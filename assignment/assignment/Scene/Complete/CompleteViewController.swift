@@ -46,9 +46,11 @@ final class CompleteViewController: UIViewController {
     // MARK: - IBAction
     
     @IBAction func completeButtonDidTap(_ sender: Any) {
-        self.dismiss(animated: true)
+        guard let tabbarVC = UIStoryboard(name: Const.Storyboard.Main, bundle: nil).instantiateViewController(withIdentifier: Const.ViewController.MainTabbarVC) as? MainTabbarController else { return }
+        changeRootViewController(tabbarVC)
     }
     
     @IBAction func anotherAccountButtonDidTap(_ sender: Any) {
+        self.dismiss(animated: true)
     }
 }
