@@ -12,7 +12,7 @@ extension Const {
         
         // MARK: - Tabbar
         
-        static let Tabbar = "Main"
+        static let Main = "Main"
         
         // MARK: - Auth
         
@@ -22,12 +22,22 @@ extension Const {
         
         // MARK: - Home
         
+        static let Home = "Home"
+        
         // MARK: - Search
+        
+        static let Search = "Search"
     
         // MARK: - Reels
         
+        static let Reels = "Reels"
+        
         // MARK: - Shop
         
+        static let Shop = "Shop"
+        
         // MARK: - MyPage
+        
+        static let MyPage = "MyPage"
     }
 }
