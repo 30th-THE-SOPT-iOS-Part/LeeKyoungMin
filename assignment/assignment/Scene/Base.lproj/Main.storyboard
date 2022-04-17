@@ -12,6 +12,7 @@
                 <tabBarController storyboardIdentifier="MainTabbarController" automaticallyAdjustsScrollViewInsets="NO" id="V1i-0I-sps" customClass="MainTabbarController" customModule="assignment" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="NGS-A4-FgL">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -71,7 +72,7 @@
         <scene sceneID="obl-l7-TaX">
             <objects>
                 <viewControllerPlaceholder storyboardName="Reels" id="B1f-AW-xJK" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="lbD-34-eS3"/>
+                    <tabBarItem key="tabBarItem" tag="3" title="Item" id="lbD-34-eS3"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pP3-tI-Ee0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

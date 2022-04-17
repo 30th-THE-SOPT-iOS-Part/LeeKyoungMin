@@ -18,7 +18,7 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="icn_reels" selectedImage="icn_reels_selected" id="kma-6w-cqI"/>
+                    <tabBarItem key="tabBarItem" tag="3" title="" image="icn_reels" selectedImage="icn_reels_selected" id="kma-6w-cqI"/>
                     <navigationItem key="navigationItem" id="ppF-V6-UQU"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
