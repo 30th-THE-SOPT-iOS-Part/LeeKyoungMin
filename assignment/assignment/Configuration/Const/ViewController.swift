@@ -23,13 +23,23 @@ extension Const {
         
         // MARK: - Home
         
+        static let HomeVC = "HomeViewController"
+        
         // MARK: - Search
+        
+        static let SearchVC = "SearchViewController"
         
         // MARK: - Reels
         
+        static let ReelsVC = "ReelsViewController"
+        
         // MARK: - Shop
         
+        static let ShopVC = "ShopViewController"
+        
         // MARK: - MyPage
+        
+        static let MyPageVC = "MyPageViewController"
         
     }
 }

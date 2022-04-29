@@ -23,6 +23,19 @@
 		986168C72805B29600A8859F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986168C62805B29600A8859F /* ViewController.swift */; };
 		98967EF927FD5EB60031138C /* JoinNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98967EF827FD5EB60031138C /* JoinNameViewController.swift */; };
 		98967EFB27FD5ECE0031138C /* JoinPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98967EFA27FD5ECE0031138C /* JoinPasswordViewController.swift */; };
+		98A0CD8428097694009609C1 /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A0CD8328097694009609C1 /* UILabel+.swift */; };
+		98BE769C2809D37C0067D688 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BE769B2809D37C0067D688 /* UIViewController+.swift */; };
+		98FAA817280934B5000749D2 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FAA816280934B5000749D2 /* Home.storyboard */; };
+		98FAA819280934C2000749D2 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FAA818280934C2000749D2 /* Search.storyboard */; };
+		98FAA81B2809351D000749D2 /* Reels.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FAA81A2809351D000749D2 /* Reels.storyboard */; };
+		98FAA81D28093528000749D2 /* Shop.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FAA81C28093528000749D2 /* Shop.storyboard */; };
+		98FAA81F28093531000749D2 /* MyPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FAA81E28093531000749D2 /* MyPage.storyboard */; };
+		98FAA821280935F0000749D2 /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FAA820280935F0000749D2 /* MainTabbarController.swift */; };
+		98FAA82328093696000749D2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FAA82228093696000749D2 /* HomeViewController.swift */; };
+		98FAA825280936B0000749D2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FAA824280936B0000749D2 /* SearchViewController.swift */; };
+		98FAA827280936BF000749D2 /* ReelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FAA826280936BF000749D2 /* ReelsViewController.swift */; };
+		98FAA829280936CC000749D2 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FAA828280936CC000749D2 /* ShopViewController.swift */; };
+		98FAA82B280936E5000749D2 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FAA82A280936E5000749D2 /* MyPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +57,19 @@
 		986168C62805B29600A8859F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		98967EF827FD5EB60031138C /* JoinNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinNameViewController.swift; sourceTree = "<group>"; };
 		98967EFA27FD5ECE0031138C /* JoinPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinPasswordViewController.swift; sourceTree = "<group>"; };
+		98A0CD8328097694009609C1 /* UILabel+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+.swift"; sourceTree = "<group>"; };
+		98BE769B2809D37C0067D688 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		98FAA816280934B5000749D2 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		98FAA818280934C2000749D2 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		98FAA81A2809351D000749D2 /* Reels.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reels.storyboard; sourceTree = "<group>"; };
+		98FAA81C28093528000749D2 /* Shop.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Shop.storyboard; sourceTree = "<group>"; };
+		98FAA81E28093531000749D2 /* MyPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyPage.storyboard; sourceTree = "<group>"; };
+		98FAA820280935F0000749D2 /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
+		98FAA82228093696000749D2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		98FAA824280936B0000749D2 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		98FAA826280936BF000749D2 /* ReelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsViewController.swift; sourceTree = "<group>"; };
+		98FAA828280936CC000749D2 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		98FAA82A280936E5000749D2 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +99,13 @@
 				980D11D127FD56700009F772 /* Login */,
 				980D11D627FD56890009F772 /* Join */,
 				980D11DB27FD57C90009F772 /* Complete */,
+				98FAA8112809347B000749D2 /* Home */,
+				98FAA8122809347F000749D2 /* Search */,
+				98FAA81328093483000749D2 /* Reels */,
+				98FAA81428093489000749D2 /* Shop */,
+				98FAA8152809348D000749D2 /* MyPage */,
 				985946AA27FA7E5C00F7610D /* Main.storyboard */,
+				98FAA820280935F0000749D2 /* MainTabbarController.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -138,6 +170,7 @@
 				980D11CA27FD55130009F772 /* Supports */,
 				986168BF2805B26800A8859F /* Resources */,
 				986168BE2805B25500A8859F /* Const */,
+				98A0CD8228097455009609C1 /* AppExtension */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -159,6 +192,60 @@
 				985946AD27FA7E5C00F7610D /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		98A0CD8228097455009609C1 /* AppExtension */ = {
+			isa = PBXGroup;
+			children = (
+				98A0CD8328097694009609C1 /* UILabel+.swift */,
+				98BE769B2809D37C0067D688 /* UIViewController+.swift */,
+			);
+			path = AppExtension;
+			sourceTree = "<group>";
+		};
+		98FAA8112809347B000749D2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				98FAA816280934B5000749D2 /* Home.storyboard */,
+				98FAA82228093696000749D2 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		98FAA8122809347F000749D2 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				98FAA818280934C2000749D2 /* Search.storyboard */,
+				98FAA824280936B0000749D2 /* SearchViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		98FAA81328093483000749D2 /* Reels */ = {
+			isa = PBXGroup;
+			children = (
+				98FAA81A2809351D000749D2 /* Reels.storyboard */,
+				98FAA826280936BF000749D2 /* ReelsViewController.swift */,
+			);
+			path = Reels;
+			sourceTree = "<group>";
+		};
+		98FAA81428093489000749D2 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				98FAA81C28093528000749D2 /* Shop.storyboard */,
+				98FAA828280936CC000749D2 /* ShopViewController.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		98FAA8152809348D000749D2 /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				98FAA81E28093531000749D2 /* MyPage.storyboard */,
+				98FAA82A280936E5000749D2 /* MyPageViewController.swift */,
+			);
+			path = MyPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,11 +306,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98FAA81D28093528000749D2 /* Shop.storyboard in Resources */,
+				98FAA817280934B5000749D2 /* Home.storyboard in Resources */,
 				980D11D327FD56770009F772 /* Login.storyboard in Resources */,
 				980D11DD27FD57D30009F772 /* Complete.storyboard in Resources */,
 				985946B127FA7E5C00F7610D /* LaunchScreen.storyboard in Resources */,
 				985946AE27FA7E5C00F7610D /* Assets.xcassets in Resources */,
+				98FAA81F28093531000749D2 /* MyPage.storyboard in Resources */,
 				985946AC27FA7E5C00F7610D /* Main.storyboard in Resources */,
+				98FAA819280934C2000749D2 /* Search.storyboard in Resources */,
+				98FAA81B2809351D000749D2 /* Reels.storyboard in Resources */,
 				980D11D827FD56910009F772 /* Join.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,14 +329,22 @@
 			files = (
 				980D11D527FD567D0009F772 /* LoginViewController.swift in Sources */,
 				986168C32805B28A00A8859F /* Image.swift in Sources */,
+				98FAA829280936CC000749D2 /* ShopViewController.swift in Sources */,
 				98967EFB27FD5ECE0031138C /* JoinPasswordViewController.swift in Sources */,
 				986168C72805B29600A8859F /* ViewController.swift in Sources */,
+				98FAA827280936BF000749D2 /* ReelsViewController.swift in Sources */,
+				98A0CD8428097694009609C1 /* UILabel+.swift in Sources */,
 				985946A527FA7E5C00F7610D /* AppDelegate.swift in Sources */,
+				98FAA82B280936E5000749D2 /* MyPageViewController.swift in Sources */,
 				985946A727FA7E5C00F7610D /* SceneDelegate.swift in Sources */,
+				98FAA821280935F0000749D2 /* MainTabbarController.swift in Sources */,
 				986168C52805B29100A8859F /* Storyboard.swift in Sources */,
+				98FAA825280936B0000749D2 /* SearchViewController.swift in Sources */,
 				986168C12805B27D00A8859F /* Const.swift in Sources */,
+				98BE769C2809D37C0067D688 /* UIViewController+.swift in Sources */,
 				980D11DF27FD57DA0009F772 /* CompleteViewController.swift in Sources */,
 				98967EF927FD5EB60031138C /* JoinNameViewController.swift in Sources */,
+				98FAA82328093696000749D2 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
