@@ -1,0 +1,16 @@
+//
+//  NetworkResult.swift
+//  seminar
+//
+//  Created by 이경민 on 2022/05/07.
+//
+
+import Foundation
+
+enum NetworkResult<T> {
+    case success(T)
+    case requestErr(T)
+    case pathErr
+    case serverErr
+    case networkFail
+}
