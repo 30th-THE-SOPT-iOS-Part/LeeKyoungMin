@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="StoryContentCollectionViewCell" customModule="assignment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="58" height="72"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="58" height="72"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XmX-AW-FFq">
+                        <rect key="frame" x="5" y="6" width="48" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="XmX-AW-FFq" secondAttribute="height" multiplier="1:1" id="Tqf-lA-vG4"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ke-XN-AKi">
+                        <rect key="frame" x="29" y="56" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="XmX-AW-FFq" secondAttribute="trailing" constant="5" id="2Cu-Vs-Y7w"/>
+                <constraint firstItem="2ke-XN-AKi" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="5Xw-Kn-bsg"/>
+                <constraint firstItem="XmX-AW-FFq" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="Q67-x6-fqe"/>
+                <constraint firstItem="2ke-XN-AKi" firstAttribute="top" secondItem="XmX-AW-FFq" secondAttribute="bottom" constant="2" id="Q8q-Ql-Ztp"/>
+                <constraint firstItem="XmX-AW-FFq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="6" id="osF-K9-RHJ"/>
+            </constraints>
+            <connections>
+                <outlet property="nameLabel" destination="2ke-XN-AKi" id="AwK-OH-cWu"/>
+                <outlet property="profileImageView" destination="XmX-AW-FFq" id="hfd-dG-6ky"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="139.95535714285714"/>
+        </collectionViewCell>
+    </objects>
+</document>
