@@ -72,6 +72,7 @@ final class JoinPasswordViewController: UIViewController {
         completeVC.modalTransitionStyle = .crossDissolve
         completeVC.modalPresentationStyle = .fullScreen
         completeVC.userName = userName
+        completeVC.userPassword = passwordTextField.text ?? ""
         self.present(completeVC, animated: true) {
             self.navigationController?.popToRootViewController(animated: false)
         }

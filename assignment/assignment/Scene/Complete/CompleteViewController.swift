@@ -12,6 +12,7 @@ final class CompleteViewController: UIViewController {
     // MARK: - Property
     
     var userName: String = ""
+    var userPassword: String = ""
     
     // MARK: - IBOutlet
     
@@ -43,11 +44,15 @@ final class CompleteViewController: UIViewController {
         """
     }
     
+    func goToLoginViewController() {
+        guard let loginVC = UIStoryboard(name: Const.Storyboard.Login, bundle: nil).instantiateViewController(withIdentifier: Const.ViewController.LoginVC) as? LoginViewController else { return }
+        changeRootViewController(loginVC)
+    }
+    
     // MARK: - IBAction
     
     @IBAction func completeButtonDidTap(_ sender: Any) {
-        guard let tabbarVC = UIStoryboard(name: Const.Storyboard.Main, bundle: nil).instantiateViewController(withIdentifier: Const.ViewController.MainTabbarVC) as? MainTabbarController else { return }
-        changeRootViewController(tabbarVC)
+        postJoin()
     }
     
     @IBAction func anotherAccountButtonDidTap(_ sender: Any) {
