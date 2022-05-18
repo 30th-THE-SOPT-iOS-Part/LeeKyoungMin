@@ -6,8 +6,8 @@
 | `week1` | iOS 개발 입문 : Xcode 기본 사용법, Layout 기초, View 화면 전환 | [☑️](https://github.com/30th-THE-SOPT-iOS-Part/LeeKyoungMin/tree/main/seminar/seminar/week1) | [☑️](https://github.com/30th-THE-SOPT-iOS-Part/LeeKyoungMin/pull/6) |
 | `week2` | UI 설계 기초(1) : AutoLayout, StackView, TabBarController | [☑️](https://github.com/30th-THE-SOPT-iOS-Part/LeeKyoungMin/pull/13) | [☑️](https://github.com/30th-THE-SOPT-iOS-Part/LeeKyoungMin/pull/19) |
 | `week3` | UI 설계 기초(2) : ScrollView, TableView, CollectionView | [☑️](https://github.com/30th-THE-SOPT-iOS-Part/LeeKyoungMin/tree/main/seminar/seminar/week3) | [☑️](https://github.com/30th-THE-SOPT-iOS-Part/LeeKyoungMin/pull/24) |
-| `week4` | 서버 통신 기초: 서버와 클라이언트 이해, RESTful API, Alamofire를 활용한 실습 | [☑️](https://github.com/30th-THE-SOPT-iOS-Part/LeeKyoungMin/tree/main/seminar/seminar/week4) |  |
-| `week5` | 클라이언트 · 디자인 합동 세미나 |  |  |
-| `week6` | 클라이언트 · 서버 합동 세미나 |  |  |
+| `week4` | 서버 통신 기초: 서버와 클라이언트 이해, RESTful API, Alamofire를 활용한 실습 | [☑️](https://github.com/30th-THE-SOPT-iOS-Part/LeeKyoungMin/tree/main/seminar/seminar/week4) | [☑️](https://github.com/30th-THE-SOPT-iOS-Part/LeeKyoungMin/pull/28) |
+| `week5` | 클라이언트 · 디자인 합동 세미나 |  | [☑️](https://github.com/Samsung-Health-11/iOS) |
+| `week6` | 클라이언트 · 서버 합동 세미나 |  | [☑️](https://github.com/Samsung-Health-11/iOS) |
 | `week7` | 서버 통신 및 데이터 전달 심화 : 서버 통신 추가 실습 |  |  |
 | `week8` | 앱잼을 위한 프로젝트 기초 세팅 및 그 외 꿀팁 소개 |  |  |
