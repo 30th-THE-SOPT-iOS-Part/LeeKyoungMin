@@ -34,6 +34,16 @@
 		98967EFB27FD5ECE0031138C /* JoinPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98967EFA27FD5ECE0031138C /* JoinPasswordViewController.swift */; };
 		98A0CD8428097694009609C1 /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A0CD8328097694009609C1 /* UILabel+.swift */; };
 		98BE769C2809D37C0067D688 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BE769B2809D37C0067D688 /* UIViewController+.swift */; };
+		98D25B7D28311AEE0030C2D1 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D25B7C28311AEE0030C2D1 /* NetworkResult.swift */; };
+		98D25B7F28311B050030C2D1 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D25B7E28311B050030C2D1 /* NetworkConstants.swift */; };
+		98D25B8328311B6D0030C2D1 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D25B8228311B6D0030C2D1 /* LoginService.swift */; };
+		98D25B8C28311FC90030C2D1 /* JoinResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D25B8B28311FC90030C2D1 /* JoinResponse.swift */; };
+		98D25B8E28311FD60030C2D1 /* JoinRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D25B8D28311FD60030C2D1 /* JoinRequest.swift */; };
+		98D25B9028311FEB0030C2D1 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D25B8F28311FEB0030C2D1 /* LoginRequest.swift */; };
+		98D25B9228311FF50030C2D1 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D25B9128311FF50030C2D1 /* LoginResponse.swift */; };
+		98D25B94283122BC0030C2D1 /* JoinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D25B93283122BC0030C2D1 /* JoinService.swift */; };
+		98D25B972831247C0030C2D1 /* LoginViewController+Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D25B962831247C0030C2D1 /* LoginViewController+Network.swift */; };
+		98D25B9F283125170030C2D1 /* CompleteViewController+Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D25B9E283125170030C2D1 /* CompleteViewController+Network.swift */; };
 		98FAA817280934B5000749D2 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FAA816280934B5000749D2 /* Home.storyboard */; };
 		98FAA819280934C2000749D2 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FAA818280934C2000749D2 /* Search.storyboard */; };
 		98FAA81B2809351D000749D2 /* Reels.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FAA81A2809351D000749D2 /* Reels.storyboard */; };
@@ -79,6 +89,16 @@
 		98967EFA27FD5ECE0031138C /* JoinPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinPasswordViewController.swift; sourceTree = "<group>"; };
 		98A0CD8328097694009609C1 /* UILabel+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+.swift"; sourceTree = "<group>"; };
 		98BE769B2809D37C0067D688 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		98D25B7C28311AEE0030C2D1 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		98D25B7E28311B050030C2D1 /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		98D25B8228311B6D0030C2D1 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		98D25B8B28311FC90030C2D1 /* JoinResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinResponse.swift; sourceTree = "<group>"; };
+		98D25B8D28311FD60030C2D1 /* JoinRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinRequest.swift; sourceTree = "<group>"; };
+		98D25B8F28311FEB0030C2D1 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		98D25B9128311FF50030C2D1 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		98D25B93283122BC0030C2D1 /* JoinService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinService.swift; sourceTree = "<group>"; };
+		98D25B962831247C0030C2D1 /* LoginViewController+Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginViewController+Network.swift"; sourceTree = "<group>"; };
+		98D25B9E283125170030C2D1 /* CompleteViewController+Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CompleteViewController+Network.swift"; sourceTree = "<group>"; };
 		98FAA816280934B5000749D2 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		98FAA818280934C2000749D2 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 		98FAA81A2809351D000749D2 /* Reels.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reels.storyboard; sourceTree = "<group>"; };
@@ -110,7 +130,6 @@
 				7325444548EDBD6AF7D404ED /* Pods-assignment.debug.xcconfig */,
 				5784121E999635DCACCD3C21 /* Pods-assignment.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,6 +171,7 @@
 		980D11D127FD56700009F772 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				98D25B95283124730030C2D1 /* Extension */,
 				980D11D227FD56770009F772 /* Login.storyboard */,
 				980D11D427FD567D0009F772 /* LoginViewController.swift */,
 			);
@@ -171,6 +191,7 @@
 		980D11DB27FD57C90009F772 /* Complete */ = {
 			isa = PBXGroup;
 			children = (
+				98D25B9D283125090030C2D1 /* Extension */,
 				980D11DC27FD57D30009F772 /* Complete.storyboard */,
 				980D11DE27FD57DA0009F772 /* CompleteViewController.swift */,
 			);
@@ -227,6 +248,7 @@
 		985946A327FA7E5C00F7610D /* assignment */ = {
 			isa = PBXGroup;
 			children = (
+				98D25B7B283118680030C2D1 /* Network */,
 				986168BD2805B22200A8859F /* Configuration */,
 				980D11CB27FD55380009F772 /* Scene */,
 				985946B227FA7E5C00F7610D /* Info.plist */,
@@ -272,6 +294,77 @@
 				98BE769B2809D37C0067D688 /* UIViewController+.swift */,
 			);
 			path = AppExtension;
+			sourceTree = "<group>";
+		};
+		98D25B7B283118680030C2D1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				98D25B8428311D620030C2D1 /* NetworkModel */,
+				98D25B8128311B540030C2D1 /* NetworkService */,
+				98D25B8028311B4F0030C2D1 /* Base */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		98D25B8028311B4F0030C2D1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				98D25B7C28311AEE0030C2D1 /* NetworkResult.swift */,
+				98D25B7E28311B050030C2D1 /* NetworkConstants.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		98D25B8128311B540030C2D1 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				98D25B8228311B6D0030C2D1 /* LoginService.swift */,
+				98D25B93283122BC0030C2D1 /* JoinService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		98D25B8428311D620030C2D1 /* NetworkModel */ = {
+			isa = PBXGroup;
+			children = (
+				98D25B8928311FA90030C2D1 /* RequestModel */,
+				98D25B8A28311FB50030C2D1 /* ResponseModel */,
+			);
+			path = NetworkModel;
+			sourceTree = "<group>";
+		};
+		98D25B8928311FA90030C2D1 /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+				98D25B8D28311FD60030C2D1 /* JoinRequest.swift */,
+				98D25B8F28311FEB0030C2D1 /* LoginRequest.swift */,
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		98D25B8A28311FB50030C2D1 /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+				98D25B8B28311FC90030C2D1 /* JoinResponse.swift */,
+				98D25B9128311FF50030C2D1 /* LoginResponse.swift */,
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		98D25B95283124730030C2D1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				98D25B962831247C0030C2D1 /* LoginViewController+Network.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		98D25B9D283125090030C2D1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				98D25B9E283125170030C2D1 /* CompleteViewController+Network.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		98FAA8112809347B000749D2 /* Home */ = {
@@ -446,9 +539,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98D25B7F28311B050030C2D1 /* NetworkConstants.swift in Sources */,
 				980D11D527FD567D0009F772 /* LoginViewController.swift in Sources */,
 				986168C32805B28A00A8859F /* Image.swift in Sources */,
+				98D25B9028311FEB0030C2D1 /* LoginRequest.swift in Sources */,
 				983F702F281BD9DE0049D62C /* PostContentCollectionViewCell.swift in Sources */,
+				98D25B8328311B6D0030C2D1 /* LoginService.swift in Sources */,
 				98FAA829280936CC000749D2 /* ShopViewController.swift in Sources */,
 				983F7020281BD2CC0049D62C /* StoryModel.swift in Sources */,
 				98967EFB27FD5ECE0031138C /* JoinPasswordViewController.swift in Sources */,
@@ -456,18 +552,25 @@
 				98FAA827280936BF000749D2 /* ReelsViewController.swift in Sources */,
 				98A0CD8428097694009609C1 /* UILabel+.swift in Sources */,
 				983F7024281BD9320049D62C /* StoryCollectionViewCell.swift in Sources */,
+				98D25B94283122BC0030C2D1 /* JoinService.swift in Sources */,
 				985946A527FA7E5C00F7610D /* AppDelegate.swift in Sources */,
 				983F7022281BD85C0049D62C /* PostModel.swift in Sources */,
 				983F7019281BCDEF0049D62C /* HomeViewController+CollectionView.swift in Sources */,
+				98D25B8E28311FD60030C2D1 /* JoinRequest.swift in Sources */,
 				98FAA82B280936E5000749D2 /* MyPageViewController.swift in Sources */,
 				985946A727FA7E5C00F7610D /* SceneDelegate.swift in Sources */,
 				98FAA821280935F0000749D2 /* MainTabbarController.swift in Sources */,
 				986168C52805B29100A8859F /* Storyboard.swift in Sources */,
+				98D25B8C28311FC90030C2D1 /* JoinResponse.swift in Sources */,
 				98FAA825280936B0000749D2 /* SearchViewController.swift in Sources */,
+				98D25B9F283125170030C2D1 /* CompleteViewController+Network.swift in Sources */,
 				983F702B281BD9D70049D62C /* StoryContentCollectionViewCell.swift in Sources */,
 				986168C12805B27D00A8859F /* Const.swift in Sources */,
 				98BE769C2809D37C0067D688 /* UIViewController+.swift in Sources */,
+				98D25B9228311FF50030C2D1 /* LoginResponse.swift in Sources */,
+				98D25B7D28311AEE0030C2D1 /* NetworkResult.swift in Sources */,
 				980D11DF27FD57DA0009F772 /* CompleteViewController.swift in Sources */,
+				98D25B972831247C0030C2D1 /* LoginViewController+Network.swift in Sources */,
 				98967EF927FD5EB60031138C /* JoinNameViewController.swift in Sources */,
 				98FAA82328093696000749D2 /* HomeViewController.swift in Sources */,
 			);

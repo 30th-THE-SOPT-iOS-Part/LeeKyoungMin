@@ -56,6 +56,11 @@ final class LoginViewController: UIViewController {
         }
     }
     
+    func goToHomeViewController() {
+        guard let homeVC = UIStoryboard(name: Const.Storyboard.Main, bundle: nil).instantiateViewController(withIdentifier: Const.ViewController.MainTabbarVC) as? MainTabbarController else { return }
+        changeRootViewController(homeVC)
+    }
+    
     // MARK: - objc function
     
     @objc func textFieldDidChange(_ sender: UITextField) {
@@ -71,11 +76,7 @@ final class LoginViewController: UIViewController {
     }
     
     @IBAction func completeButtonDidTap(_ sender: Any) {
-        guard let completeVC = UIStoryboard(name: Const.Storyboard.Complete, bundle: nil).instantiateViewController(withIdentifier: Const.ViewController.CompleteVC) as? CompleteViewController else { return }
-        completeVC.modalTransitionStyle = .crossDissolve
-        completeVC.modalPresentationStyle = .fullScreen
-        completeVC.userName = emailTextField.text ?? ""
-        self.present(completeVC, animated: true)
+        postLogin()
     }
     
     @IBAction func joinButtonDidTap(_ sender: Any) {
