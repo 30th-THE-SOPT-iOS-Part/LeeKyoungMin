@@ -9,5 +9,8 @@
 | `week4` | 서버 통신 기초: 서버와 클라이언트 이해, RESTful API, Alamofire를 활용한 실습 | [☑️](https://github.com/30th-THE-SOPT-iOS-Part/LeeKyoungMin/tree/main/seminar/seminar/week4) | [☑️](https://github.com/30th-THE-SOPT-iOS-Part/LeeKyoungMin/pull/28) |
 | `week5` | 클라이언트 · 디자인 합동 세미나 | ♨️ | [☑️](https://github.com/Samsung-Health-11/iOS) |
 | `week6` | 클라이언트 · 서버 합동 세미나 | ♨️ | [☑️](https://github.com/Samsung-Health-11/iOS) |
-| `week7` | 서버 통신 및 데이터 전달 심화 : 서버 통신 추가 실습 |  |  |
+| `week7` | 서버 통신 및 데이터 전달 심화 : 서버 통신 추가 실습 |  | [☑️](https://meenyweeny.notion.site/7-37987bad637d43a6afc244681e9e9b46) |
 | `week8` | 앱잼을 위한 프로젝트 기초 세팅 및 그 외 꿀팁 소개 |  |  |
+
+### #7차 과제
+- [UI Issue](https://meenyweeny.notion.site/7-37987bad637d43a6afc244681e9e9b46) 
