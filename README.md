@@ -14,3 +14,4 @@
 
 ### #7차 과제
 - [UI Issue](https://meenyweeny.notion.site/7-37987bad637d43a6afc244681e9e9b46) 
+- [협업 Issue](https://meenyweeny.notion.site/Coop-issue-1255c97b9e764501ba352c844c07e638)
