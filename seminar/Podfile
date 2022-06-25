@@ -7,4 +7,6 @@ target 'seminar' do
 
   # Pods for seminar
 pod 'Alamofire'
+pod 'SnapKit'
+
 end

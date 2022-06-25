@@ -45,6 +45,8 @@
 		989BB90F2813F0DA009E4270 /* AlbumDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989BB90E2813F0DA009E4270 /* AlbumDataModel.swift */; };
 		98B7DE7727F832FA0088B166 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7DE7627F832FA0088B166 /* FirstViewController.swift */; };
 		98B7DE7927F833010088B166 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7DE7827F833010088B166 /* SecondViewController.swift */; };
+		98E6BA012866D81100B191B0 /* HermesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E6BA002866D81100B191B0 /* HermesViewController.swift */; };
+		98E6BA032866D9EC00B191B0 /* Hermes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E6BA022866D9EC00B191B0 /* Hermes.storyboard */; };
 		98ECFFE4282655BA009A2EE0 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98ECFFE3282655BA009A2EE0 /* APIConstants.swift */; };
 		98ECFFE62826579F009A2EE0 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98ECFFE52826579F009A2EE0 /* NetworkResult.swift */; };
 		98ECFFEB2826587F009A2EE0 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98ECFFEA2826587F009A2EE0 /* LoginModel.swift */; };
@@ -93,6 +95,8 @@
 		989BB90E2813F0DA009E4270 /* AlbumDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDataModel.swift; sourceTree = "<group>"; };
 		98B7DE7627F832FA0088B166 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		98B7DE7827F833010088B166 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		98E6BA002866D81100B191B0 /* HermesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HermesViewController.swift; sourceTree = "<group>"; };
+		98E6BA022866D9EC00B191B0 /* Hermes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Hermes.storyboard; sourceTree = "<group>"; };
 		98ECFFE3282655BA009A2EE0 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		98ECFFE52826579F009A2EE0 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
 		98ECFFEA2826587F009A2EE0 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
@@ -161,6 +165,7 @@
 		9831C41927F8139A002864EE /* seminar */ = {
 			isa = PBXGroup;
 			children = (
+				98E6B9FF2866D7EB00B191B0 /* week8 */,
 				9831C42F27F81521002864EE /* Supports */,
 				9831C42E27F813D7002864EE /* week1 */,
 				984B723C28014F6700CA32BC /* week2 */,
@@ -291,6 +296,15 @@
 			path = collectionview;
 			sourceTree = "<group>";
 		};
+		98E6B9FF2866D7EB00B191B0 /* week8 */ = {
+			isa = PBXGroup;
+			children = (
+				98E6BA002866D81100B191B0 /* HermesViewController.swift */,
+				98E6BA022866D9EC00B191B0 /* Hermes.storyboard */,
+			);
+			path = week8;
+			sourceTree = "<group>";
+		};
 		98ECFFE82826586C009A2EE0 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -368,6 +382,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98E6BA032866D9EC00B191B0 /* Hermes.storyboard in Resources */,
 				984B723E280152EC00CA32BC /* Week2.storyboard in Resources */,
 				984B725728017C4200CA32BC /* Stack.storyboard in Resources */,
 				984B7254280173A800CA32BC /* AutoLayout.storyboard in Resources */,
@@ -446,6 +461,7 @@
 				989BB8F52813D7FE009E4270 /* Week3FirstViewController.swift in Sources */,
 				98ECFFE62826579F009A2EE0 /* NetworkResult.swift in Sources */,
 				98ECFFED28265A29009A2EE0 /* UserService.swift in Sources */,
+				98E6BA012866D81100B191B0 /* HermesViewController.swift in Sources */,
 				989BB8FF2813DF90009E4270 /* MusicTableViewCell.swift in Sources */,
 				984B72402801556200CA32BC /* Week2FirstViewController.swift in Sources */,
 				9831C43327F8155C002864EE /* Week1ViewController.swift in Sources */,
